@@ -1,0 +1,71 @@
+body {
+  color: white;
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -2;
+  background-image: url(https://negokai.com/wp-content/uploads/2019/11/mejores-herramientas-para-organizar-equipos-trabajo.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.background-oppacity {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  background: rgba(20, 100, 165, 0.75);
+}
+label {
+  display: flex;
+  font-size: 16px;
+  font-family: monospace;
+  margin: 0 50px 0.1% 0.2%;
+}
+
+form {
+  width: 55%;
+  background: rgba(20, 100, 165, 0.85);
+  margin: 0% auto 0% auto;
+  padding: 0.3% 0% 0.3% 0%;
+  border-radius: 5px;
+}
+
+#title {
+  font-family: monospace;
+  font-size: 30px;
+  display: block;
+  color: white;
+  text-align: center;
+}
+
+.resp-container {
+  width: 100%;
+}
+#description {
+  font-family: monospace;
+  font-size: 18px;
+  display: block;
+  color: white;
+  text-align: center;
+}
+.form-block {
+  
+  padding: 1% 2% 1% 4%;
+}
+.form-control {
+  width: 60%;
+  
+}
+
+.input-textarea {
+width: 80%;
+margin: 0.5% auto 0.5% auto;
+}
