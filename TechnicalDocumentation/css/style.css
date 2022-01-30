@@ -1,0 +1,146 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0%;
+    background-color: rgba(243, 243, 243, 0.746);
+}
+
+/* Left-nav format */
+
+#navbar {
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 25vw;
+    height: 100vh; 
+}
+#left-nav {
+    background-color: rgb(230, 230, 230);
+    width: 23vw;
+    border-radius: 1vh;
+    height: 100%;
+    
+    margin: 0.3vh auto;
+    padding: 0.3vw 0.3vw 0.3vw 0.3vw;
+
+}
+
+#left-header {
+    width: 24vw;
+    border-radius: 1vh;
+    
+    margin: 0.3vh auto;
+}
+
+#index > ul {
+    padding: 0;
+}
+
+#index > ul > li {
+    list-style: none;
+    height: 5vh;
+    width: 95%;
+    margin:  0.5vh auto;
+    padding: 0;
+    background-color: rgb(160, 158, 158);
+    border-radius: 0.5vh;
+    text-align: center;
+}
+
+.nav-link {
+    margin: auto auto;
+    color: white;
+}
+
+/* Main section Format */
+
+#main-doc {
+
+    width: 100vw;
+    margin: 0.3vh auto;
+    border-radius: 0.5vh ;
+
+}
+
+.main-section {
+    padding-left: 30vw;
+    padding-right: 15vw;
+    
+}
+
+code {
+    display: flex;
+    margin-left: 3vw;
+    width: 50vw;
+}
+
+code > p {
+    background-color: black;
+    color: white;
+    margin: 0%;
+    width: 100%;
+    border-left: green;
+    border-width: 0.1%;
+    border-left-style: solid;
+    padding: 1vw 2vw 1vw 1vw;
+    text-align: justify;
+}
+table {
+    margin-left: 5vw;
+    width: 25 vw;
+}
+
+th {
+    text-align: left;
+    padding: auto auto auto 2vw;
+    color: rgb(238, 238, 238);
+}
+tr:nth-child(2n) {
+    background-color: rgb(66, 131, 173);
+    
+}
+
+tr:nth-child(2n+1) {
+    background-color: rgb(180, 178, 178);
+  
+}
+section > header {
+    font-size: 3em;
+}
+
+header {
+    font-size: 1.5em;
+}
+
+@media (max-width: 600px) {
+
+    #navbar {
+        position:static;
+        width: 100vw;
+        height: auto; 
+    }
+    #left-nav {
+        background-color: rgb(230, 230, 230);
+        width: 99vw;
+        border-radius: 1vh;
+        height: 100%;
+        
+        margin: 0.3vh auto;
+        padding: 0.3vw 0.3vw 0.3vw 0.3vw;
+    
+    }
+    
+    #left-header {
+        width: 100vw;
+        border-radius: 1vh;
+        
+        margin: 0.3vh auto;
+    }
+
+    .main-section {
+        padding-left: 2vw;
+        padding-right: 2vw;
+        
+    }
+
+}

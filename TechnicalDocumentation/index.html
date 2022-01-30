@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main id="main-doc">
+        <nav id="navbar">
+            <div id = "left-nav">   
+
+                <header id="left-header">Python Documentation
+                </header>
+                <div id="index">
+                    <ul>
+                        <li><a class="nav-link" href="#Python_Introduction">Python Introduction</a></li>
+                        <li><a class="nav-link" href="#Python_Getting_Started">Python Getting Started</a></li>
+                        <li><a class="nav-link" href="#Python_Syntax">Python Syntax</a></li>
+                        <li><a class="nav-link" href="#Python_Comments">Python Comments</a></li>
+                        <li><a class="nav-link" href="#Python_Data_Types">Python Data Types</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    
+        <section class="main-section" id="Python_Introduction">
+            <header>Python Introduction</header>
+
+            <h2>What is Python?</h2>
+
+            <p>Python is a popular programming language. It was created by Guido van Rossum, and released in 1991.</p>
+            <p>It is used for:</p>
+            <ul>
+                <li>web development (server-side),</li>
+                <li>software development,</li>
+                <li>mathematics,</li>
+                <li>system scripting.</li>
+            </ul>
+            <h2>What can Python do?</h2>
+            
+            <ul>
+                <li>Python can be used on a server to create web applications.</li>
+                <li>Python can be used alongside software to create workflows.</li>
+                <li>Python can connect to database systems. It can also read and modify files.</li>
+                <li>Python can be used to handle big data and perform complex mathematics.</li>
+                <li>Python can be used for rapid prototyping, or for production-ready software development.</li>
+            </ul>
+
+            <h2>Why Python?</h2>
+            <ul>
+                <li>Python works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc).</li>
+                <li>Python has a simple syntax similar to the English language.</li>
+                <li>Python has syntax that allows developers to write programs with fewer lines than some other programming languages.</li>
+                <li>Python runs on an interpreter system, meaning that code can be executed as soon as it is written. This means that prototyping can be very quick.</li>
+                <li>Python can be treated in a procedural way, an object-oriented way or a functional way.</li>
+            </ul>
+            <h2> Good to know</h2>   
+            <ul>
+                <li>The most recent major version of Python is Python 3, which we shall be using in this tutorial. However, Python 2, although not being updated with anything other than security updates, is still quite popular.</li>
+                <li>In this tutorial Python will be written in a text editor. It is possible to write Python in an Integrated Development Environment, such as Thonny, Pycharm, Netbeans or Eclipse which are particularly useful when managing larger collections of Python files.</li>
+            </ul>
+            
+
+
+            <h2>Python Syntax compared to other programming languages</h2>
+                <ul>
+                    <li>Python was designed for readability, and has some similarities to the English language with influence from mathematics.</li>
+                    <li>Python uses new lines to complete a command, as opposed to other programming languages which often use semicolons or parentheses.</li>
+                    <li>Python relies on indentation, using whitespace, to define scope; such as the scope of loops, functions and classes. Other programming languages often use curly-brackets for this purpose.</li>
+                </ul>
+        </section>
+
+        <section class="main-section"  id="Python_Getting_Started">
+            <header>Python Getting Started</header>
+            <h2>Python Install</h2>
+            <p>Many PCs and Macs will have python already installed.
+            <br>To check if you have python installed on a Windows PC, search in the start bar for Python or run the following on the Command Line (cmd.exe):
+        </p>
+        <code>
+            <p>C:\Users\Your Name>python --version</p>
+        </code>
+        <p>
+        To check if you have python installed on a Linux or Mac, then on linux open the command line or on Mac open the Terminal and type:
+        </p>
+        <code>
+            <p>python --version</p>
+        </code>
+        <p>
+            If you find that you do not have Python installed on your computer, then you can download it for free from the following website:
+            <a href="https://www.python.org/">https://www.python.org/</a>
+        </p>
+
+        <h2>Python Quickstart</h2>
+
+        <p>Python is an interpreted programming language, this means that as a developer you write Python (.py) files in a text editor and then put those files into the python interpreter to be executed.
+           <br>The way to run a python file is like this on the command line:
+        </p>
+        <code>
+            <p>C:\Users\Your Name>python helloworld.py</p>
+        </code>
+        <p>Where "helloworld.py" is the name of your python file.
+            <br>Let's write our first Python file, called helloworld.py, which can be done in any text editor.
+            <br>Simple as that. Save your file. Open your command line, navigate to the directory where 
+            <br>you saved your file, and run:
+        </p>
+        <code>
+            <p>C:\Users\Your Name>python helloworld.py</p>
+        </code>
+        <p>The output should read:</p>
+        <code>
+            <p>Hello, World!</p>
+        </code>
+        <p>Congratulations, you have written and executed your first Python program.</p>
+        </section>
+
+        <section class="main-section" id="Python_Syntax">
+            <header>Python Syntax</header>
+
+            <h2>Execute Python Syntax</h2>
+
+            <p>As we learned in the previous page, Python syntax can be executed by writing directly in the Command Line:</p>
+            <code>
+                <p>>>> print("Hello, World!")<br>Hello, World!</p>
+            </code>
+            
+            <h2>Python Indentation</h2>
+            <p>Indentation refers to the spaces at the beginning of a code line.
+                <br>Where in other programming languages the indentation in code is for readability only, the indentation in Python is very important.
+                <br> Python uses indentation to indicate a block of code.
+                </p>
+        </section>
+
+        <section class="main-section" id="Python_Comments">
+            <header>Python Comments</header>
+            <p>Comments can be used to explain Python code.
+                <br>Comments can be used to make the code more readable.
+                <br>Comments can be used to prevent execution when testing code.
+            </p>
+            <h2>Creating a Comment</h2>
+            <p>
+                Comments starts with a <span style="color: red">#</span>, and Python will ignore them:
+            </p>
+            <code>
+                <p><span style="color: green;">#This is a comment</span>
+                    <br><span style="color: blue;">print</span>(<span style="color:crimson">"Hello, World!"</span>)</p>
+            </code>
+            <p>Comments can be placed at the end of a line, and Python will ignore the rest of the line:</p>
+            <code>
+                <p><span style="color: blue;">print</span>(<span style="color:crimson">"Hello, World!"</span>)<span style="color: green;">#This is a comment</span></p>
+            </code>
+            <p>A comment does not have to be text that explains the code, it can also be used to prevent Python from executing code:</p>
+            <code>
+                <p><span style="color: green;">#print("Hello, World!")</span>
+                    <br><span style="color: blue;">print</span>(<span style="color:crimson">"Cheers, Mate!"</span>)</p>
+            </code>
+            <h2>Multi Line Comments</h2>
+
+            <p>
+                Python does not really have a syntax for multi line comments.
+                <br>To add a multiline comment you could insert a <span style="color: red;">#</span> for each line:
+            </p>
+            <code>
+                <p><span style="color: green;">#This is a comment</span>
+                    <br><span style="color: green;">#written in</span>
+                    <br><span style="color: green;">#Tmore than just one line</span>
+                    <br><span style="color: blue;">print</span>(<span style="color:crimson">"Hello, World!"</span>)</p>
+            </code>
+            <p>Or, not quite as intended, you can use a multiline string.
+                <br>Since Python will ignore string literals that are not assigned to a variable, you can add a multiline string (triple quotes) in your code, and place your comment inside it:
+            </p>
+            <code>
+                <p><span style="color: brown;">"""This is a comment</span>
+                    <br><span style="color: brown;">written in</span>
+                    <br><span style="color: brown;">Tmore than just one line"""</span>
+                    <br><span style="color: blue;">print</span>(<span style="color:crimson">"Hello, World!"</span>)</p>
+            </code>
+            <p>As long as the string is not assigned to a variable, Python will read the code, but then ignore it, and you have made a multiline comment.</p>
+        </section>
+
+        <section class="main-section" id="Python_Data_Types">
+            <header>Python Data Types</header>
+            <h2>Built-in Data Types</h2>
+
+            <p>In programming, data type is an important concept.
+                <br>Variables can store data of different types, and different types can do different things.
+                <br>Python has the following data types built-in by default, in these categories:
+            </p>
+            <table>
+                <tr>
+                    <th>Text Type:</th>
+                    <th><span>str</span></th>
+                </tr>
+                <tr>
+                    <th>Numeric Types:</th>
+                    <th><span>int, float, complex</span></th>
+                </tr>
+                <tr>
+                    <th>Sequence Types:</th>
+                    <th><span>list, tuple, range</span></th>
+                </tr>
+                <tr>
+                    <th>Mapping Types:</th>
+                    <th><span>dict</span></th>
+                </tr>
+                <tr>
+                    <th>Set Types:</th>
+                    <th><span>set, frozenset</span></th>
+                </tr>
+                <tr>
+                    <th>Boolean Types:</th>
+                    <th><span>Bool</span></th>
+                </tr>
+                <tr>
+                    <th>Binary Types:</th>
+                    <th><span>bytes, bytearray, memoryview</span></th>
+                </tr>
+
+
+            </table>
+
+
+
+
+        </section>
+
+    </main>
+</body>
+</html>
